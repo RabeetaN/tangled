@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tangled - Review</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Open+Sans&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+  <body>
+    <header>
+      <img src="images/tangled.png" alt="Tangled" id="tangledLogo"/>
+      <nav>
+        <a href="home.html"> <strong>Home</strong></a>
+        <a href="review.html"><strong>Review</strong></a>
+        <a href="characters.html"><strong>Characters</strong></a>
+        <a href="more.html"><strong>More</strong></a>
+      </nav>
+    </header>
+
+    <section>
+      <h1>Write your review!</h1>
+      <form action="">
+        <fieldset>
+          <div><label for="name">Name</label><br><input type="text" id="name" placeholder="Enter fullname..."/></div>
+          <div><label for="email">Email</label><br><input type="text" id="email" placeholder="Enter your email..."/></div>
+          <div>
+            <p>Who was/were your favourite character/s?</p>
+            <input type="checkbox" id="rap" value="Rapunzel"><label for="rap">Rapunzel</label>
+            <input type="checkbox" id="flyn" value="Flynn Rider"><label for="flyn">Flynn Rider</label>
+            <input type="checkbox" id="goth" value="Gothel"><label for="goth">Gothel</label>
+            <input type="checkbox" id="horse" value="Maximus"><label for="horse">Maximus</label>
+            <input type="checkbox" id="stab" value="Stabbington Brothers"><label for="stab">Stabbington Brothers</label>
+          </div>
+          <div><label for="review">Review</label><br><textarea name="review" id="review" cols="30" rows="10" placeholder="Write your review..."></textarea></div>
+          <div><input type="submit" id="submit" value="Submit Review"></div>
+        </fieldset>
+      </form>
+    </section>
+  </body>
+</html>
