@@ -39,7 +39,7 @@ section#characters div{
   display: flex;
   align-items: center;
   flex-direction: column;
-  position: relative;
+  /* position: relative; */
   margin-bottom: 100px;
 }
 
@@ -47,8 +47,8 @@ section#characters p{
   background-color: rgb(223, 209, 181, 0.85);
   color: black;
   padding: 15px;
-  position: absolute;
-  top: 260px;
+  /* position: absolute; */
+  /* top: 260px; */
   border-radius: 10px;
   outline: 5px solid rgb(223, 209, 181, 0.85);
   outline-offset: 5px;
